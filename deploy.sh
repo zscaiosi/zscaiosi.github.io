@@ -1,0 +1,1 @@
+mv consensus-website/build/* .
