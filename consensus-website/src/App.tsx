@@ -31,7 +31,8 @@ class App extends React.Component {
         </section>
         <section className="centered">
           <p className="p-text">
-            A plataforma será composta por dois subprojetos, o primeiro é o desenvolvimento do <i>front end</i>, o segundo é o desenvolvimento do back end. Ambos serão desenvolvidos em JavaScript usando ReactJS para o primeiro e NodeJS para o segundo.
+            A plataforma será composta por dois subprojetos, o primeiro é o desenvolvimento do <i>front end</i>, o segundo é o desenvolvimento do back end. Ambos serão desenvolvidos em JavaScript usando ReactJS para o primeiro e NodeJS para o segundo.<br/>
+            Para colaborar com o projeto acesse os repositórios: <i> <a target="_blank" href="https://github.com/zscaiosi">front-end</a></i> e <i> <a target="_blank" href="https://github.com/zscaiosi">back-end</a></i>
           </p>
         </section>
       </div>
