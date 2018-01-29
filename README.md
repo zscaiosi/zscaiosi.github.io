@@ -1,9 +1,6 @@
 # CONSENSUS
-## Assembléias e debates organizad@s
+_*Assembléias e debates mais organizad@s*_
 
-## Features:
-* Acesso
-- Participação anônima SEM coleta de dados.
-- Salas privadas e sigilo das falas.
-- Acesso por link dinamicamente gerado.
-- Criador da sala tem total controle desta.
+Este repositório serve apenas à apresentação do projeto, em breve os repositório tanto para o front-end quanto para o back-end serão disponibilizados.
+
+Entre em contato para ajudar a gerenciar o desenvolvimento: _projeto.consensus@gmail.com_
