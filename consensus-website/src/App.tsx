@@ -35,6 +35,11 @@ class App extends React.Component {
             Para colaborar com o projeto acesse os repositórios: <i> <a target="_blank" href="https://github.com/zscaiosi">front-end</a></i> e <i> <a target="_blank" href="https://github.com/zscaiosi">back-end</a></i>
           </p>
         </section>
+        <section className="centered">
+          <p className="p-text">
+            Para participar das Sprints do projeto acesse: <i> <a target="_blank" href="https://docs.google.com/spreadsheets/d/19Uyy6afp8vrsGuWNZYCBTnUm_rYU2iD3beHBg0xfgEU/edit?usp=sharing">Google Sheets</a></i>
+          </p>
+        </section>
       </div>
     );
   }
