@@ -31,15 +31,16 @@ class App extends React.Component {
         </section>
         <section className="centered">
           <p className="p-text">
-            A plataforma será composta por dois subprojetos, o primeiro é o desenvolvimento do <i>front end</i>, o segundo é o desenvolvimento do back end. Ambos serão desenvolvidos em JavaScript usando ReactJS para o primeiro e NodeJS para o segundo.<br/>
-            Para colaborar com o projeto acesse os repositórios: <i> <a target="_blank" href="https://github.com/zscaiosi">front-end</a></i> e <i> <a target="_blank" href="https://github.com/zscaiosi">back-end</a></i>
+            Para participar das Sprints do projeto acesse: <i> <a target="_blank" href="https://docs.google.com/spreadsheets/d/19Uyy6afp8vrsGuWNZYCBTnUm_rYU2iD3beHBg0xfgEU/edit?usp=sharing">Google Sheets</a></i>.
           </p>
         </section>
-        <section className="centered">
-          <p className="p-text">
-            Para participar das Sprints do projeto acesse: <i> <a target="_blank" href="https://docs.google.com/spreadsheets/d/19Uyy6afp8vrsGuWNZYCBTnUm_rYU2iD3beHBg0xfgEU/edit?usp=sharing">Google Sheets</a></i>
-          </p>
-        </section>
+        <aside id="menu-area">
+          <ul className="nav-menu">
+            <li>Apresentação</li>
+            <li>Código fonte</li>
+            <li>Contato</li>
+          </ul>
+        </aside>
       </div>
     );
   }
