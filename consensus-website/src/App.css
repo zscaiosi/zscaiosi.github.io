@@ -23,6 +23,16 @@ body {
   justify-content: flex-start;
 }
 
+.footer {
+  background-color: #222;
+  height: 100%;
+  padding: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .App-title {
   font-size: 1.5em;
   margin:0px;
@@ -49,6 +59,7 @@ body {
   width: 100%;
   margin: 10px;
   padding: 5px;
+  max-width: 1200px;
 }
 
 .description {
@@ -64,6 +75,48 @@ a:hover {
   text-decoration: none;
   text-shadow: 1px 1px rgba(80, 50, 80, 0.5);
   color: black;
+}
+
+.white-paper {
+  font-family: Courier New, Courier, monospace;
+  text-justify: newspaper;
+}
+.white-paper-title {
+  color: black;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.column-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.state-diagram {
+  background-image: url("./assets/consensus_state_image.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 320px;
+  margin: 0px 15px;
+}
+
+.spaced-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.link-icon {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
 }
 
 /* @keyframes App-logo-spin {
