@@ -60,7 +60,7 @@ class App extends React.Component {
                 </span>
                 <span className="link-icon">
                   <i className="fab fa-github fa-5x"></i>
-                  <a href="https://github.com/zscaiosi/consensus-frontend" target="_blank" >Back-End</a>
+                  <a href="https://github.com/zscaiosi/consensus-backend" target="_blank" >Back-End</a>
                 </span>
                 <span className="link-icon">
                   <i className="far fa-compass fa-5x"></i>
