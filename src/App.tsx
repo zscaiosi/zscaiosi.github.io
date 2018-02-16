@@ -8,6 +8,28 @@ const logo = require('./assets/volunteer.svg');
 class App extends React.Component {
   private paragraph1 = 'Se faz necessária, e talvez a única possível no momento, uma solução que utilize o conjunto de tecnologias web para possibilitar que um grupo de pessoas se reúnam remotamente em torno de uma pauta, tenham tempos de exposição de idéias equânimes e limitados e possam decidir quais exposições foram melhor elaboradas, para que ao fim da discussão possa ser criado um consenso em torno do tema tratado. É exatamente essa solução que o projeto Consensus oferece.';
   private paragraph2 = 'Para alcançar a sua finalidade o projeto deverá ser desenvolvido a partir de uma linguagem de programação e uma plataforma que comporte alta concorrência de processos, escalabilidade, fácil manutenção de código e comunicação em tempo real entre os usuários.s Para que os todos os requisitos sejam atingidos a escolha se deu pela linguagem de programação interpretada JavaScript e sua plataforma de execução em servidores Node.js, isso implica em utilizar uma variada gama de frameworks e bibliotecas Open Source que existem tanto para JavaScript quanto para Node.js.';
+  private paragraph3 = this.buildTechList();
+
+  buildTechList(){
+    return(
+      <div>
+        <ul>
+          <li>
+            <b>Socket.io</b><br/>
+            Para a comunicação em tempo real entre os participantes da discussão.
+          </li>
+          <li>
+            <b>Node.js</b><br/>
+            A plataforma back-end para a implementação de toda a lógica da aplicação.
+          </li>
+          <li>
+            <b>ReactJS</b><br/>
+            O framework JavaScript para que o front-end seja uma <i>"Single Page Application"</i>.
+          </li>
+        </ul>
+      </div>
+    );
+  }
 
   render() {
     return (
@@ -39,6 +61,9 @@ class App extends React.Component {
               </section>
               <section className="centered">
                 <WhitePaper title="Requisitos" paragraph={this.paragraph2} />
+              </section>
+              <section className="centered">
+                <WhitePaper title="Tecnologias" paragraph={this.paragraph3} />
               </section>
             </div>
 
